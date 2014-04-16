@@ -15,11 +15,22 @@
     "NFD"
   ],
   "browserify": {
-    "transform": "workerify",
+    "transform": "workerify"
   },
   "browser": {
-    "./node/create-Faces.js": "./browser/create-Faces.js",
-    "./node/ndnx-init.js": "./browser/ndnx-init.js"   
+    "./lib/node/create-Faces.js": "./lib/browser/create-Faces.js",
+    "./lib/node/ndnx-init.js": "./lib/browser/ndnx-init.js",
+    "./lib/node/daemon.js:": "./lib/browser/daemon.js"
+  },
+  "dependencies": {
+    "levelup": "*",
+    "level-js": "*",
+    "memdown": "*",
+    "level-sublevel": "*",
+    "level-ttl": "*",
+    "level-mapped-index": "*",
+    "leveldown": "~0.10.2",
+    "node-forge": "~0.2.37"
   },
   "author": "Ryan Bennett",
   "license": "GPL",
