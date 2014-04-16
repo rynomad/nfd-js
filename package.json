@@ -1,0 +1,29 @@
+{
+  "name": "nfd",
+  "version": "0.0.0",
+  "description": "NDN Forwarding daemon for node.js and the browser ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rynomad/nfd-js"
+  },
+  "keywords": [
+    "NDN",
+    "NFD"
+  ],
+  "browserify": {
+    "transform": "workerify",
+  },
+  "browser": {
+    "./node/create-Faces.js": "./browser/create-Faces.js",
+    "./node/ndnx-init.js": "./browser/ndnx-init.js"   
+  },
+  "author": "Ryan Bennett",
+  "license": "GPL",
+  "bugs": {
+    "url": "https://github.com/rynomad/nfd-js/issues"
+  }
+}
