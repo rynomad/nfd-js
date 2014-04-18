@@ -23,14 +23,13 @@
     "./lib/node/daemon.js:": "./lib/browser/daemon.js"
   },
   "dependencies": {
-    "levelup": "*",
-    "level-js": "*",
-    "memdown": "*",
-    "level-sublevel": "*",
-    "level-ttl": "*",
-    "level-mapped-index": "*",
-    "leveldown": "~0.10.2",
-    "node-forge": "~0.2.37"
+    "ndn-lib": "*",
+    "ndn-utils": "*",
+    "ndn-tcpServerTransport": "*",
+    "ndn-cache": "*",
+    "node-forge": "~0.2.37",
+    "net": "^1.0.2",
+    "ws": "*"
   },
   "author": "Ryan Bennett",
   "license": "GPL",
