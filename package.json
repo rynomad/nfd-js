@@ -29,7 +29,7 @@
     "ndn-cache": "*",
     "node-forge": "~0.2.37",
     "net": "^1.0.2",
-    "ws": "*"
+    "ws": "^0.4.31"
   },
   "author": "Ryan Bennett",
   "license": "GPL",
