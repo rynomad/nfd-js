@@ -3,7 +3,7 @@ var FIB = require('../../lib/ndn-FIB.js')
 var PIT = require('../../lib/ndn-PIT.js')
 var forface = require('../../lib/ndn-ForwarderFace.js')
 var net = require('net')
-var sockTransport = require('ndn-tcpServerTransport').transport
+var sockTransport = require('ndn-tcpServerTransport')
 console.log(sockTransport)
 var serv = net.createServer(function(c){
 
@@ -34,7 +34,7 @@ var testForwardingEntry = {
   nextHop: {
     faceID: 1,
     cost: 0
-  }  
+  }
 }
 
 setTimeout(function(){FIB.put(testForwardingEntry)},200)
