@@ -16,18 +16,19 @@ describe('PIT', function(){
 
   it('should return said PITEntry', function(done){
     PIT.lookupData(data, function(matches){
-      if (matches != null)      
+      if (matches != null)
       done()
     })
   })
   it('should not return PITEntry after Timeout', function(done){
+    this.timeout(3000)
     setTimeout(function(){
    PIT.lookupData(data, function(matches){
       if (matches == null)
       done()
     })
 
-    }, 1200)  
+    }, 1200)
 
   })
 })
