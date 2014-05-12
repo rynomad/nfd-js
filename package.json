@@ -1,6 +1,6 @@
 {
   "name": "ndn-forwarder",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "NDN Forwarding daemon for node.js and the browser ",
   "main": "index.js",
   "scripts": {
@@ -33,7 +33,8 @@
     "net": "^1.0.2",
     "ws": "^0.4.31",
     "levelup": "^0.18.3",
-    "leveldown": "*"
+    "leveldown": "*",
+    "level-sublevel": "*"
   },
   "author": "Ryan Bennett",
   "license": "GPL",
