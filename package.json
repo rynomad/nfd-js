@@ -35,6 +35,7 @@
     "levelup": "^0.18.3",
     "leveldown": "*",
     "level-sublevel": "*",
+    "level-ttl": "*",
     "memdown": "*"
   },
   "author": "Ryan Bennett",
