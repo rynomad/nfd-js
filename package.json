@@ -27,7 +27,7 @@
     "ndn-utils": "*",
     "ndn-tcp-server-transport": "*",
     "ndn-websocket-server-transport": "*",
-    "ndn-telehash-transport": "*",
+    "ndn-telehash-transport": "git+https://github.com/rynomad/ndn-telehashTransport.git#atom",
     "ndn-cache": "*",
     "node-forge": "~0.2.37",
     "net": "^1.0.2",
