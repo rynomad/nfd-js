@@ -1,6 +1,6 @@
 {
   "name": "ndn-forwarder",
-  "version": "0.0.13",
+  "version": "0.0.15",
   "description": "NDN Forwarding daemon for node.js and the browser ",
   "main": "index.js",
   "scripts": {
